@@ -1,0 +1,132 @@
+﻿
+#login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form-container {
+    display: grid;
+    align-content: center;
+}
+
+#contact-form {
+    display: grid;
+    font-size: 20px;
+    text-shadow: 0.2px 0.3px 1px rgb(0, 34, 145);
+    justify-content: center;
+    align-items: center;
+}
+
+    #contact-form > div {
+        display: grid;
+        transition: 0.6s;
+    }
+
+    #contact-form > label {
+        display: block;
+    }
+
+    #contact-form > div > input {
+        height: 25px;
+        width: 210px;
+    }
+
+    #contact-form > div > span {
+        font-size: 16px;
+        color: #ffedcb;
+        text-align: end;
+        text-shadow: 0.8px 0.8px 2px rgb(0, 1, 4);
+        display: flex;
+    }
+
+#checkBox-container {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    font-size: 22px;
+    color: aliceblue;
+    text-shadow: 0.2px 0.2px 1.2px rgb(1, 25, 105);
+    margin-bottom: 15px;
+}
+
+#submit-container {
+    margin: auto;
+}
+.login-message {
+    transition: 0.6s;
+    margin: auto;
+    font-size: 16px;
+    color: #ffedcb;
+    text-shadow: 0.8px 0.8px 1px rgb(0, 1, 4);
+}
+
+@media(max-width:576px) {
+    #login-header {
+        transform: translateY(20px) !important;
+    }
+}
+
+
+@media(min-width:576px) {
+    #contact-form {
+        grid-template-columns: 1fr 1fr;
+        font-size: 23px;
+        margin-left: 50px;
+    }
+
+        #contact-form > div {
+            margin-bottom: 15px;
+        }
+
+            #contact-form > div > input {
+                font-size: 22px;
+                height: 30px
+            }
+
+            #contact-form > div > span {
+                font-size: 16px;
+                text-align: start;
+            }
+
+    #checkBox-container {
+        top: 24px;
+        right: 32px;
+        font-size: 24px;
+    }
+
+    #header-container {
+        transform: translateY(-60px);
+    }
+
+    .login-message {
+        font-size: 18px;
+        text-shadow: 1px 1px 3px rgb(0, 1, 4);
+    }
+}
+
+@media(min-width:769px) {
+    #contact-form {
+        font-size: 25px;
+        margin-left: 100px;
+    }
+
+        #contact-form > div {
+            margin-bottom: 15px;
+        }
+
+            #contact-form > div > input {
+                font-size: 22px;
+                height: 30px
+            }
+
+    .login-message {
+        font-size: 20px;
+        text-shadow: 1px 1px 4px rgb(0, 1, 4);
+        transform:translateX(150px);
+        padding:10px;
+    }
+}

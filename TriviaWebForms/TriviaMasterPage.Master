@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TriviaMasterPage.master.cs" Inherits="TriviaWebForms.TriviaMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="Oops" runat="server" />
+    <asp:ContentPlaceHolder ID="loginHead" runat="server" />
+    <asp:ContentPlaceHolder ID="triviaHead" runat="server" />
+    <link href="Style/MasterStyle.css?" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+<%--    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>--%>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="navbar">
+            <div class="navbar-links">
+                <a runat="server" href="~/View/Login">Login</a>
+                <a runat="server" href="~/View/TriviaPage">Trivia</a>
+                <a runat="server" href="~/View/AppData">AppData</a>
+            </div>
+        </div>
+
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Joker Trivia</p>
+            </footer>
+            </div>
+    </form>
+</body>
+</html>

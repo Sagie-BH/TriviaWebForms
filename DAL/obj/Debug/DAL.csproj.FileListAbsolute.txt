@@ -1,0 +1,14 @@
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\bin\Debug\QuizDb.mdf
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\bin\Debug\QuizDb_log.ldf
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\bin\Debug\DAL.dll.config
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\bin\Debug\DAL.dll
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\bin\Debug\DAL.pdb
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\obj\Debug\DAL.dll
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\obj\Debug\DAL.pdb
+C:\Users\Sagie\source\repos\TriviaWebForms\DAL\obj\Debug\DAL.csprojAssemblyReference.cache

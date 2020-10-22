@@ -1,0 +1,33 @@
+﻿.error-body {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    animation: errGlow 2s infinite;
+}
+#error-grid {
+    color: #fff2db;
+    display: grid;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+}
+#jail-gif {
+    margin: auto;
+}
+#err-lbl {
+    font-size: 36px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px rgb(74, 49, 49);
+}
+#err-message {
+    margin: auto;
+    margin-top: 20px;
+    font-size: 24px;
+    text-shadow: 0.7px 0.7px 1px rgb(74, 49, 49);
+}
+@keyframes errGlow {
+    80% {
+        text-shadow: 15px 15px 150px rgb(255, 0 ,0);
+    }
+}
